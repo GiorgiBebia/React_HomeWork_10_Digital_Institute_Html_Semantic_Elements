@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+}
+.header {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: "Epilogue";
+  font-weight: 600;
+  font-size: 20px;
+  color: #2d2d2d;
+}
+.nav {
+  width: 261px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about,
+.work,
+.contact {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.section1 {
+  width: 780px;
+  height: 297px;
+  padding: 120px 250px;
+  margin: 0 auto;
+  padding-top: 120px;
+  background-color: #f9e6f0;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.name,
+.job,
+.bio,
+.bio-about {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 17px;
+  color: #2d2d2d;
+}
+.name {
+  margin: 0;
+  margin-top: 20px;
+}
+.job {
+  font-weight: 400;
+  margin: 0;
+}
+.bio {
+  margin: 0;
+}
+.bio-about {
+  font-weight: 400;
+  margin: 0;
+}
+.section2 {
+  width: 880px;
+  height: 400px;
+  padding: 120px 200px;
+}
+.history {
+  font-family: "Epilogue";
+  font-weight: 500;
+  font-size: 24px;
+  color: #2d2d2d;
+}
+
+.p1 {
+  max-width: 880px;
+  width: 100%;
+  height: 26px;
+  background-color: #009379;
+  font-family: "Epilogue";
+  font-weight: 600;
+  font-size: 16px;
+  color: #f6dce9;
+}
+
+.p2 {
+  max-width: 880px;
+  width: 100%;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  color: #2b2b2b;
+}
+footer {
+  width: 1080px;
+  height: 529px;
+  padding: 70px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-together {
+  font-family: "Epilogue";
+  font-weight: 600;
+  font-size: 32px;
+  color: #2d2d2d;
+}
+
+.footer-p {
+  width: 360px;
+  height: 135px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 17px;
+  color: #2d2d2d;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.icons {
+  width: 232px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input,
+.email-input,
+.message-input {
+  width: 530px;
+  height: 69px;
+  background-color: #f3f3f3;
+  border: none;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.message-input {
+  height: 231px;
+}
+.btn {
+  width: 235px;
+  height: 80px;
+  padding: 25px 82px;
+  border: none;
+  background-color: #2d2d2d;
+  margin-top: 20px;
+  font-family: "Epilogue";
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+.name-input::placeholder,
+.email-input::placeholder,
+.message-input::placeholder {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 17px;
+  color: #2d2d2d;
+}
+.burger {
+  display: none;
+}
+.line {
+  width: 1080px;
+  height: 1px;
+  margin-left: 100px;
+  background-color: black;
+}

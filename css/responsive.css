@@ -1,0 +1,60 @@
+@media (max-width: 375px) {
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .section1 {
+    flex-direction: column;
+    width: 345px;
+    height: 100%;
+    padding: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+  .bio-about {
+    width: 315px;
+  }
+  .section2 {
+    width: 315px;
+    height: 850px;
+    padding: 120px 30px;
+    padding-bottom: 0px;
+  }
+  .history {
+    margin-bottom: 60px;
+  }
+  .p1 {
+    height: 40px;
+  }
+  .line {
+    width: 315px;
+    margin-left: 30px;
+  }
+  footer {
+    flex-direction: column;
+    width: 315px;
+    padding: 0;
+    padding-left: 30px;
+  }
+  .footer-p {
+    width: 315px;
+  }
+  .name-input,
+  .email-input,
+  .message-input {
+    width: 285px;
+  }
+  .work-together {
+    margin-top: 70px;
+  }
+  .icons {
+    margin-bottom: 80px;
+  }
+  .btn {
+    margin-bottom: 70px;
+  }
+}
